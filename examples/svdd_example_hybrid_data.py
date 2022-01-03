@@ -7,7 +7,8 @@ An example for SVDD model fitting with negataive samples
 import sys
 sys.path.append("..")
 from sklearn.datasets import load_wine
-from src.BaseSVDD import BaseSVDD, BananaDataset
+from SVDD import BaseSVDD
+from SVDD.dataset import BananaDataset
 
 # Banana-shaped dataset generation and partitioning
 X, y = BananaDataset.generate(number=100, display='on')

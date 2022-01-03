@@ -7,7 +7,7 @@ An example for SVDD model fitting with negataive samples
 import sys
 sys.path.append("..")
 import numpy as np
-from src.BaseSVDD import BaseSVDD
+from SVDD.BaseSVDD import BaseSVDD
 
 # create 100 points with 2 dimensions
 n = 100

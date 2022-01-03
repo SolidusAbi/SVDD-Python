@@ -11,7 +11,8 @@ https://github.com/guofei9987/scikit-opt
 
 import sys
 sys.path.append("..")
-from src.BaseSVDD import BaseSVDD, BananaDataset
+from SVDD import BaseSVDD
+from SVDD.dataset import BananaDataset
 from sko.PSO import PSO
 import matplotlib.pyplot as plt
 

@@ -10,7 +10,7 @@ The KPCA algorithm is used to reduce the dimension of the original data.
 import sys
 sys.path.append("..")
 import numpy as np
-from src.BaseSVDD import BaseSVDD
+from SVDD.BaseSVDD import BaseSVDD
 from sklearn.decomposition import KernelPCA
 
 

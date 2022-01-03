@@ -7,7 +7,8 @@ An example for parameter selection using grid search
 import sys
 sys.path.append("..")
 from sklearn.datasets import load_wine
-from src.BaseSVDD import BaseSVDD, BananaDataset
+from SVDD import BaseSVDD
+from SVDD.dataset import BananaDataset
 from sklearn.model_selection import KFold, LeaveOneOut, ShuffleSplit
 from sklearn.model_selection import learning_curve, GridSearchCV
 

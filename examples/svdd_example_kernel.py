@@ -6,7 +6,8 @@ An example for SVDD model fitting using different kernels
 """
 import sys
 sys.path.append("..")
-from src.BaseSVDD import BaseSVDD, BananaDataset
+from SVDD import BaseSVDD
+from SVDD.dataset import BananaDataset
 
 # Banana-shaped dataset generation and partitioning
 X, y = BananaDataset.generate(number=100, display='on')

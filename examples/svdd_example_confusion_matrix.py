@@ -7,7 +7,7 @@ import sys
 sys.path.append("..")
 import numpy as np
 import matplotlib.pyplot as plt
-from src.BaseSVDD import BaseSVDD
+from SVDD import BaseSVDD
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import ConfusionMatrixDisplay
 from sklearn.metrics import roc_curve, auc

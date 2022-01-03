@@ -5,7 +5,8 @@ An example for cross validation
 """
 import sys
 sys.path.append("..")
-from src.BaseSVDD import BaseSVDD, BananaDataset
+from SVDD import BaseSVDD
+from SVDD.dataset import BananaDataset
 from sklearn.model_selection import cross_val_score
 
 
